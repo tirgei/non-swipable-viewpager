@@ -1,13 +1,14 @@
 package com.gelostech.viewpager;
 
 import android.content.Context;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentPagerAdapter;
 
 /**
  * Created by Monroe on 7/13/2016.
@@ -20,7 +21,7 @@ public class PagerAdapter extends FragmentPagerAdapter {
 
 
 
-    public PagerAdapter(FragmentManager fm,Context context) {
+    public PagerAdapter(FragmentManager fm, Context context) {
         super(fm);
         this.context = context;
     }

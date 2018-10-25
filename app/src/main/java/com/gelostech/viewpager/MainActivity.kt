@@ -1,11 +1,11 @@
 package com.gelostech.viewpager
 
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.support.design.widget.TabLayout
+import androidx.appcompat.app.AppCompatActivity
 import com.gelostech.viewpager.fragments.FragmentOne
 import com.gelostech.viewpager.fragments.FragmentThree
 import com.gelostech.viewpager.fragments.FragmentTwo
+import com.google.android.material.tabs.TabLayout
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
