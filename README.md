@@ -1,6 +1,8 @@
 # Preferences Helper
 
 [![](https://jitpack.io/v/tirgei/non-swipable-viewpager.svg)](https://jitpack.io/#tirgei/non-swipable-viewpager)
+[![BCH compliance](https://bettercodehub.com/edge/badge/tirgei/non-swipable-viewpager?branch=master)](https://bettercodehub.com/)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/e2d93e7d107d48a69cc04aa3c9cff8b4)](https://www.codacy.com/manual/tirgei/non-swipable-viewpager?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=tirgei/non-swipable-viewpager&amp;utm_campaign=Badge_Grade)
 
 An android library to implement a non-swipable ViewPager
 
@@ -19,10 +21,11 @@ Step 1: Add in your root build.gradle of your project
 
 Step 2: Add the dependency to your app gradle
 ```
+
     dependencies {
     	...
-	    implementation 'com.github.tirgei:non-swipable-viewpager:{latest-version}'
-	    ...
+	implementation 'com.github.tirgei:non-swipable-viewpager:{latest-version}'
+	...
     }
 
 ```
